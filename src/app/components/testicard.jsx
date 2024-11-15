@@ -5,7 +5,7 @@ const Testicard = ({ name, review, company }) => {
         <div>
  
     <div className="testimonial-card">
-      <p className="testimonial-review">"{review}"</p>
+      <p className="testimonial-review">{review}</p>
       <div className="testimonial-author">
         <p className="testimonial-name">{name}</p>
         <p className="testimonial-company">{company}</p>
