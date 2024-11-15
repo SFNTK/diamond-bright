@@ -1,0 +1,33 @@
+#pie{
+    background-color: #fefefe;
+    border-radius: 10px;
+box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+align-self: center;
+}
+#piechart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#typeschart{
+    display: flex;
+    column-gap: 20px;
+}
+.divtype{
+    width: 30px;
+    height: 15px;
+    border-radius: 5px;
+}
+.typechart{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+
+}

@@ -1,0 +1,29 @@
+#why{
+    width: 100%;
+    display: flex;
+    min-height: 30vh;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+    height: 100%;
+    background-image: url('/move.png');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+#why img{
+    width: 45%;
+    max-height: 50vh;
+}
+#why div{
+  padding: 2vh 1vw ;
+    width: 100%;
+    align-self: center;
+}
+#why div p{
+    font-family: DM Sans,sans-serif;
+    font-weight: bold;
+    font-size: 1.125rem;
+    text-align: center;
+
+}

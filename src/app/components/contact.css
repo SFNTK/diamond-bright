@@ -1,0 +1,121 @@
+#contactsection {
+    background: rgb(51,150,255);
+    background: linear-gradient(104deg, rgba(51,150,255,1) 15%, rgba(0,122,255,1) 42%, rgba(0,79,186,1) 100%); 
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+margin-top: 30px;
+}
+
+#contactsection h2 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    width: 100%;
+
+}
+
+#backcpntact {
+    width: 50%;
+    height: auto;
+    align-self: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 20px;
+}
+
+#contactcontainer {
+    width: 40%;
+    margin-left: 5%;
+    padding-top: 1%;
+}
+
+.group {
+    display: flex;
+    line-height: 30px;
+    align-items: center;
+    position: relative;
+    width: 70%;
+}
+
+.input {
+    width: 100%;
+    height: 45px;
+    line-height: 30px;
+    padding: 0 5rem;
+    padding-left: 3rem;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    background-color: #f8fafc;
+    color: #0d0c22;
+    transition: .5s ease;
+}
+
+.input::placeholder {
+    color: #94a3b8;
+}
+
+.input:focus,
+input:hover {
+    outline: none;
+    border-color: #004643;
+    background-color: #fff;
+
+}
+
+.icon {
+    position: absolute;
+    left: 1rem;
+    fill: none;
+    width: 1rem;
+    height: 1rem;
+}
+#contactbtn{
+    background: rgb(51,150,255);
+    background: linear-gradient(104deg, rgba(51,150,255,1) 15%, rgba(0,122,255,1) 42%, rgba(0,79,186,1) 100%); 
+
+    color: #f8fafc;
+    border:  #94a3b8 solid .5px;
+    width: 70%;
+    padding: 10px 0;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+
+}
+#contactbtn:hover{
+    transform: scale(1.1);
+    transition: all .6s ease-in-out ;
+}
+@media (max-width:992px){
+   
+}
+@media (max-width:1023px){
+    #contactsection{
+        flex-direction: column;
+        
+    }   
+    #backcpntact{
+        width: 100%;
+    }
+    #contactcontainer{
+        width: 100%;
+        margin-top: 30px;
+        padding-bottom: 20px;
+        margin-left: 0%;
+    }
+    #backcpntact{
+        max-height: 300px;
+    }
+}

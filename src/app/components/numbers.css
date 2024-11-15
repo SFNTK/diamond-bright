@@ -1,0 +1,60 @@
+
+#numbers{
+    width: 100%;
+    display: flex;
+
+    justify-content: space-around;
+    padding: 2% 1%;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    row-gap: 3vh;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+/*    opacity: 0;
+    transform: translateY(70px);*/
+}
+
+#numberpara{
+    font-family: "DM Sans", sans-serif;
+    color: #454F4E;
+
+}
+#numbermini{
+    font-family: "DM Sans", sans-serif;
+   
+font-weight: 600;
+margin-top: 3%;
+
+}
+#numberheadline{
+    font-size: 2.5rem;
+    font-family: "DM Sans", sans-serif;
+ 
+    font-weight: 600;
+
+}
+@media (max-width:992px){
+   
+}
+@media (max-width:1023px){
+
+   #numbers{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 9px;
+   }
+   .number{
+    
+    width: 100%;
+    align-items: center;
+   }
+   .number2{
+    
+    width: 100%;
+    align-items: center;
+   }
+}

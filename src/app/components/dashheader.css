@@ -1,0 +1,17 @@
+#dashheader {
+  display: flex;
+}
+
+#dashheader div {
+  width: 50%;
+  border-left: .5px solid white;
+  border-right: .5px solid white;
+  text-align: center;
+  padding: 10px 0;
+  transition: .3s ease-in-out all;
+  cursor: pointer;
+}
+
+#dashheader div:hover {
+  background-color: #FF6B6B;
+}

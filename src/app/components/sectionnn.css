@@ -1,0 +1,57 @@
+.testicont2{
+    display: flex;
+    column-gap: 5vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 5vh;
+
+}
+.cardtett{
+    width: 40%;
+}
+#dots2{
+    position: absolute;
+    width: 7vw;
+    transform: rotate(270deg);
+    top: -.5%;
+    left: 0%;
+
+}
+
+#dots2-1{
+    position: absolute;
+    width: 7vw;
+    top: -.5%;
+    right: 0%;
+
+}
+
+#dots2-2{
+    position: absolute;
+    width: 7vw;
+    bottom: -.5%;
+    right: 0%;
+transform: rotate(90deg);
+
+}
+
+#dots2-3{
+    position: absolute;
+    width: 7vw;
+    bottom: -.5%;
+    left: 0%;
+transform: rotate(180deg);
+}
+
+
+.sct{
+    background-color: #F0FAFF;
+    overflow: hidden;
+    flex-direction: column;
+    position: relative;
+}
+@media (max-width:800px) {
+    .cardtett{
+        width: 80%;
+    }
+}

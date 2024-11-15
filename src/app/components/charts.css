@@ -1,0 +1,22 @@
+.chartpie{
+    width: 100%;
+}
+#chartscontainer{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+@media (max-width:1024px){
+    .chartpie{
+        width: 100%;
+    }
+    #monthsorder{
+        width: 100%;
+    }
+    #chartscontainer{
+        padding: 5vh 0 0 0;
+        width: 90%;
+    }
+
+}

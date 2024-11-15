@@ -1,0 +1,41 @@
+#pricinghero{
+    background-image: url("../../../public/heropricing.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;flex-direction: column;
+    padding: 10px;
+  
+}
+#pricinghero p{
+    margin-top: 1vh;
+    font-size: 1.125rem;
+    font-family: "Quicksand", sans-serif;
+margin-top: 2vh;
+margin-left: 1vw;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+#pricinghero h2{
+    font-weight: bold;
+  
+ 
+
+  font-style: normal;
+    font-family: "Quicksand", sans-serif;
+
+    font-size: 2.5rem;
+  
+  
+}
+.pagesbtn{
+    display: inline-flex;
+column-gap: 5px;
+padding: 10px;
+border-radius: 20px;
+transition: all ease-in-out .3s;}

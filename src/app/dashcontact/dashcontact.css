@@ -1,0 +1,32 @@
+.getinfo{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+#contactcontaoner{
+    display: flex;
+    padding: 1%;
+}
+#contactcontaoner #table{
+    width: 90%;
+    
+  
+}
+#chart2cont{
+    width: 40%;
+}
+
+
+@media (max-width:1024px){
+    #contactcontaoner{flex-direction: column;}
+    #chart2cont{
+        width: 90%;
+        margin-top: 5vh;
+
+    }
+}

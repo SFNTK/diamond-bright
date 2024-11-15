@@ -1,0 +1,40 @@
+.info{
+    display: flex;
+    align-items: center;
+ color: #004E89;
+    column-gap: 5px;
+}
+#infos{
+    display: flex;
+   column-gap: 5vw;
+   align-items: center;
+   justify-content: center;
+   background-color: #F0FAFF;
+    padding: 20px;
+}
+#infosdata{
+   display: inline-flex;
+   flex-direction: column;
+   row-gap: 10px;
+   padding: 30px ;
+   margin: 20px;
+   border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#mapcontainer{
+    width:50% ;
+    height: 50vh;
+    border-radius: 10px;
+}
+.inputcontact{
+    width: 100%;
+}
+
+@media (max-width:1024px){
+    #infos{
+        flex-direction: column;
+    }
+    #mapcontainer{
+        width: 100%;
+    }
+}

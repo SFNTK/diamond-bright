@@ -1,0 +1,23 @@
+#testiscontainer{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 2%;
+padding: 3vh 0;
+    flex-wrap: wrap;
+    row-gap: 2vh;
+}
+.cardtett2{
+    width: 30%;
+}
+@media (max-width:1024px) {
+    .cardtett2{
+        width: 45%;
+    }
+    
+}
+@media (max-width:767px) {
+    .cardtett2{
+        width: 80%;
+    }
+    
+}

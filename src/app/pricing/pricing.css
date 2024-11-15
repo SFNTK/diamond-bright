@@ -1,0 +1,50 @@
+#callprice{
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 5vh;
+    flex-direction: column;
+    
+}
+#callprice p{ 
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    font-size:2rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+
+}
+.herobtn3 {
+
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+}
+.cardcities{
+    width: 60%;
+}
+@media (max-width:1024px){
+    .btnscontainercall{
+        flex-direction: column;
+    }
+    #callprice p{ 
+        text-align: center;
+    }
+    .cardcities{
+        width: 60%;
+    }
+}
+@media (max-width:767px){
+    .cardcities{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
