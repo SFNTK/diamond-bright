@@ -8,11 +8,10 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
+  overflow-x:hidden
 
 }
-#nav{
-  overflow-y: hidden;
-}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
