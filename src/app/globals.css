@@ -10,8 +10,11 @@
   box-sizing: border-box;
 
 }
-#navphone{
+body{
   overflow-x:hidden
+}
+#layoutclientcont{
+  position: relative;
 }
 @layer base {
   :root {
