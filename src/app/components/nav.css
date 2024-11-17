@@ -5,9 +5,12 @@
     align-items: center;
     justify-content: space-between;
 font-weight: bold;
-position: relative;
 
 
+
+}
+#layoutclientcont{
+    overflow-x: hidden;
 }
 #navphone{
     display: flex;
